@@ -1,0 +1,37 @@
+table{
+    td:first-child,
+    th:first-child,
+    td:last-child {
+        text-align: center;
+    }
+    td:last-child{
+        font-size:24px;
+    }
+    tbody tr{
+        cursor: pointer;
+        
+        i:hover{
+            color: red;
+        }
+    }
+}
+
+td, th{
+    vertical-align: middle;
+}
+
+
+.col-id{
+    //text-align: center; not working this for colgroup
+    width: 70px;
+
+}
+
+.col-contact{
+    width: 150px;
+
+}
+
+col.remove{
+    width: 70px;
+}
